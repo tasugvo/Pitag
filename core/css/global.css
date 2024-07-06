@@ -1,0 +1,13 @@
+@import url(CalculadoraSimples.css);
+
+@font-face{
+    font-family: 'SF PRO';
+    src: url('SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    background-color: black;
+}
+

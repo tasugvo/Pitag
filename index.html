@@ -24,31 +24,61 @@
 
     <div class="calculadora">
 
-        <div class="operadoresSimples">
+        <section id="screen" class="container">
+           
+           <section>
+                <h4></h4>
+                <h4></h4>   
+           </section>
+           <h1>0</h1>
+        </section>
 
-            
-            <button class="simple-buttons2" id="btn-1">AC</button>
-            <button class="simple-buttons2" id="btn-2">?</button>
-            <button class="simple-buttons2" id="btn-3">%</button>
-            <button class="simple-buttons3" id="btn-4">÷</button>
-            <button class="simple-buttons" id="btn-5">7</button>
-            <button class="simple-buttons" id="btn-6">8</button>
-            <button class="simple-buttons" id="btn-7">9</button>
-            <button class="simple-buttons3" id="btn-8">x</button>
-            <button class="simple-buttons" id="btn-9">4</button>
-            <button class="simple-buttons" id="btn-10">5</button>
-            <button class="simple-buttons" id="btn-11">6</button>
-            <button class="simple-buttons3" id="btn-12">-</button>
-            <button class="simple-buttons" id="btn-13">1</button>
-            <button class="simple-buttons" id="btn-14">2</button>
-            <button class="simple-buttons" id="btn-15">3</button>
-            <button class="simple-buttons3" id="btn-16">+</button>
-            <button class="simple-buttons" id="btn-17">?</button>
-            <button class="simple-buttons" id="btn-18">0</button>
-            <button class="simple-buttons" id="btn-19">.</button>
-            <button class="simple-buttons3" id="btn-20">=</button>
-
-        </div>
+        <ul id="tecladoS" class="container">
+                <!-- operadores sb2-3 -->
+                <li><button class="simple-buttons2" id="btn-1" onclick="delete_all()">AC</button></li>
+                <li><button class="simple-buttons2" id="btn-2" onclick="plus_minus()">?</button></li>
+                <li><button class="simple-buttons2" id="btn-3" onclick="percent()">%</button></li>
+                <li><button class="simple-buttons3" id="btn-4" onclick="operation(this)">÷</button></li>
+            <li><button class="simple-buttons" id="btn-5">7</button></li>
+            <li><button class="simple-buttons" id="btn-6">8</button></li>
+            <li><button class="simple-buttons" id="btn-7">9</button></li>
+                <li><button class="simple-buttons3" id="btn-8" onclick="operation(this)">x</button></li>
+            <li><button class="simple-buttons" id="btn-9">4</button></li>
+            <li><button class="simple-buttons" id="btn-10">5</button></li>
+            <li><button class="simple-buttons" id="btn-11">6</button></li>
+                <li><button class="simple-buttons3" id="btn-12" onclick="operation(this)">-</button></li>
+            <li><button class="simple-buttons" id="btn-13">1</button></li>
+            <li><button class="simple-buttons" id="btn-14">2</button></li>
+            <li><button class="simple-buttons" id="btn-15">3</button></li>
+                <li><button class="simple-buttons3" id="btn-16" onclick="operation(this)">+</button></li>
+            <li><button class="simple-buttons" id="btn-17">?</button></li>
+            <li><button class="simple-buttons" id="btn-18">0</button></li>
+            <li><button class="simple-buttons" id="btn-19">.</button></li>
+                <li><button class="simple-buttons3" id="btn-20" onclick="result()">=</button></li>
+        </ul>
+        
+        <!-- <div id="tecladoS" class="container">
+                <button class="simple-buttons2" id="btn-1" onclick="delete_all()">AC</button>
+                <button class="simple-buttons2" id="btn-2" onclick="plus_minus()">?</button>
+                <button class="simple-buttons2" id="btn-3" onclick="percent()">%</button>
+                <button class="simple-buttons3" id="btn-4" onclick="operation(this)">÷</button>
+                <button class="simple-buttons" id="btn-5">7</button>
+                <button class="simple-buttons" id="btn-6">8</button>
+                <button class="simple-buttons" id="btn-7">9</button>
+                <button class="simple-buttons3" id="btn-8" onclick="operation(this)">x</button>
+                <button class="simple-buttons" id="btn-9">4</button>
+                <button class="simple-buttons" id="btn-10">5</button>
+                <button class="simple-buttons" id="btn-11">6</button>
+                <button class="simple-buttons3" id="btn-12" onclick="operation(this)">-</button>
+                <button class="simple-buttons" id="btn-13">1</button>
+                <button class="simple-buttons" id="btn-14">2</button>
+                <button class="simple-buttons" id="btn-15">3</button>
+                <button class="simple-buttons3" id="btn-16" onclick="operation(this)">+</button>
+                <button class="simple-buttons" id="btn-17">?</button>
+                <button class="simple-buttons" id="btn-18">0</button>
+                <button class="simple-buttons" id="btn-19">.</button>
+                <button class="simple-buttons3" id="btn-20" onclick="result()">=</button>
+        </div> -->
 
     </div>
 

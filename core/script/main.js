@@ -70,6 +70,16 @@ const op_screen = document.querySelector("#screen h4:nth-child(1)");
 const num_screen = document.querySelector("#screen > section h4:nth-child(2)");
 
 function show_value(button) {
+
+    const screen = document.querySelector("#screen h1");
+    if (screen) {
+        // Acessa o innerHTML apenas se screen não for null ou undefined
+        screen.innerHTML = button.innerHTML;
+    } else {
+        console.error("Elemento #screen h1 não encontrado");
+    }
+
+
     if (screen.innerHTML.length < 10) {
         
         if (!isNaN(parseInt(button.innerHTML))) {

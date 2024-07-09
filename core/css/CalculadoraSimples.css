@@ -15,25 +15,27 @@ ul#tecladoS {
 }
 
 
+/* configurar screen⬇️ */
 #screen{
     height: 10%;
-    background-color: var(--screen-color);
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    /* background-color: var(--screen-color); */
+    background-color: white;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
     overflow: hidden;
 
 }
 h1#screen{
-    text-align: right;
-    padding: 0 1rem 0 0;
-    font-size: 4rem;
+    text-align: center;
+    /* padding: 0 1rem 0 0; */
+    font-size: 40px;
     width: 100%;
     color: rgb(255, 255, 255);
 
 }
 #screen section {
-    width: 8%;
-    background: none;
+    /* width: 8%; */
+    /* background: none; */
 
 }
 #screen h4 {
@@ -45,10 +47,10 @@ h1#screen{
     overflow: hidden;
 
 }
-#screen section h4:nth-child(2){
+/* #screen section h4:nth-child(2){
     font-size: 1.4rem;
-    
-}
+
+} */
 
 
 

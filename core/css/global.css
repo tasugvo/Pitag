@@ -1,4 +1,5 @@
-@import url(CalculadoraSimples.css);
+@import url(teclado.css);
+@import url(calc.css);
 
 @font-face{
     font-family: 'SF PRO';
@@ -9,5 +10,6 @@
 
 *{
     background-color: black;
+    /* display: ; */
 }
 

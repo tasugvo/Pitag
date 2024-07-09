@@ -1,0 +1,32 @@
+.calculadora{
+    width: 270px;
+
+    
+
+}
+
+
+
+/* configurar screen⬇️ */
+.screen{
+    
+    background-color: black;
+    
+    overflow: hidden;
+    width: 105%;
+
+    color: white;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+h1.screen{
+    text-align: center;
+    /* padding: 0 1rem 0 0; */
+    font-size: 60px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
